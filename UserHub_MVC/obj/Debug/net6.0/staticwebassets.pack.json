@@ -1,0 +1,341 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Project_MVC.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Project_MVC.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\images\\An pham242126965.png",
+      "PackagePath": "staticwebassets\\images\\An pham242126965.png"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\images\\An pham242248677.png",
+      "PackagePath": "staticwebassets\\images\\An pham242248677.png"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\images\\An pham242547238.png",
+      "PackagePath": "staticwebassets\\images\\An pham242547238.png"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\images\\Screenshot 2024-05-22 095244240148951.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2024-05-22 095244240148951.png"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\images\\Screenshot 2024-05-25 233110244133316.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2024-05-25 233110244133316.png"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\images\\Screenshot 2024-05-27 083802240317619.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2024-05-27 083802240317619.png"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\images\\Standee Svane Cosmetics241640354.png",
+      "PackagePath": "staticwebassets\\images\\Standee Svane Cosmetics241640354.png"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\images\\Standee Svane Cosmetics241726669.png",
+      "PackagePath": "staticwebassets\\images\\Standee Svane Cosmetics241726669.png"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\images\\Standee Svane Cosmetics243037570.png",
+      "PackagePath": "staticwebassets\\images\\Standee Svane Cosmetics243037570.png"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\images\\Standee Svane Cosmetics243146562.png",
+      "PackagePath": "staticwebassets\\images\\Standee Svane Cosmetics243146562.png"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\images\\Standee Svane Cosmetics243929541.png",
+      "PackagePath": "staticwebassets\\images\\Standee Svane Cosmetics243929541.png"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\images\\Standee Svane Cosmetics244349408.png",
+      "PackagePath": "staticwebassets\\images\\Standee Svane Cosmetics244349408.png"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\images\\Standee Svane Cosmetics245844266.png",
+      "PackagePath": "staticwebassets\\images\\Standee Svane Cosmetics245844266.png"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\images\\fb240702304.png",
+      "PackagePath": "staticwebassets\\images\\fb240702304.png"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\images\\fb243721702.png",
+      "PackagePath": "staticwebassets\\images\\fb243721702.png"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\images\\google240834407.png",
+      "PackagePath": "staticwebassets\\images\\google240834407.png"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\images\\student_card243439119.jpg",
+      "PackagePath": "staticwebassets\\images\\student_card243439119.jpg"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\images\\z5577267076866_35efce549067811c448b70e8695ef477244035092.jpg",
+      "PackagePath": "staticwebassets\\images\\z5577267076866_35efce549067811c448b70e8695ef477244035092.jpg"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\images\\z5577267099412_002f3e3e45629413ab1b62b03a498e1f243543376.jpg",
+      "PackagePath": "staticwebassets\\images\\z5577267099412_002f3e3e45629413ab1b62b03a498e1f243543376.jpg"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Hoc\\Ki8\\PRN231\\Project_MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Project_MVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Project_MVC.props",
+      "PackagePath": "build\\Project_MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Project_MVC.props",
+      "PackagePath": "buildMultiTargeting\\Project_MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Project_MVC.props",
+      "PackagePath": "buildTransitive\\Project_MVC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

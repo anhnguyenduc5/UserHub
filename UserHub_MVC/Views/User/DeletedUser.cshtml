@@ -1,0 +1,170 @@
+﻿@{
+    @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+    if (Context.Session.GetInt32("RoleId") == null) {
+                    <script>
+                        window.location.href = "/Account/AccessDenied";
+                    </script>
+    } 
+}
+<style>
+    .sort-asc::after {
+        content: ' ↑';
+    }
+
+    .sort-desc::after {
+        content: ' ↓';
+    }
+</style>
+<div class="container mt-4">
+    <h2>Deleted Users List</h2>
+
+    <div class="mb-3">
+        <input type="text" id="searchBox" class="form-control" placeholder="Search by name, email, etc." />
+        <button id="searchButton" class="btn btn-primary mt-2">Search</button>
+        
+    </div>
+    </div>
+
+    <table class="table table-striped" id="usersTable">
+        <thead>
+            <tr>
+                <th><a href="#" data-sort="id">Id</a></th>
+                <th><a href="#" data-sort="userName">User name</a></th>
+                <th><a href="#" data-sort="email">Email</a></th>
+                <th><a href="#" data-sort="phoneNumber">Phone number</a></th>
+                <th><a href="#" data-sort="role">Role</a></th>
+                <th>Fullname</th>
+                <th>Address</th>
+                <th>Date Of Birth</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            let searchTerm = '';
+            let currentSort = {
+                column: 'id',
+                direction: 'asc'
+            }
+            let currentUserId = @Context.Session.GetInt32("UserId");
+            let currentRole = @Context.Session.GetInt32("RoleId");
+
+            function loadUsers() {
+                let filterQuery = searchTerm ? `$filter=contains(userName, '${searchTerm}') or contains(email, '${searchTerm}')` : '';
+                let orderByQuery = `$orderby=${currentSort.column} ${currentSort.direction}`;
+                let query = filterQuery ? `${filterQuery}&${orderByQuery}` : orderByQuery;
+
+                $.ajax({
+                    url: `http://localhost:5100/DeletedUser`,
+                    type: 'GET',
+                    success: function(data) {
+                        updateTable(data);
+                    },
+                    error: function(jqXHR, textStatus, errorThrown) {
+                        console.log('Error:', textStatus, errorThrown);
+                        alert('Error loading data');
+                    }
+                });
+            }
+
+            function updateTable(data) {
+                var tbody = $('#usersTable tbody');
+                tbody.empty();
+
+                data.forEach(user => {
+                    var userDetails = user.userDetails[0] || {};
+                    var promoteButton = user.role !== 'Admin'  && user.id !== currentUserId
+                        ? `<button class="btn btn-warning btn-sm change-role-btn" data-id="${user.id}" data-action="promote">Promote to Admin</button>`
+                        : '';
+                    var degradeButton = user.role === 'Admin'  && user.id !== currentUserId
+                        ? `<button class="btn btn-info btn-sm change-role-btn" data-id="${user.id}" data-action="degrade">Degrade to User</button>`
+                        : '';
+                    var deleteButton = user.id !== currentUserId 
+                        ? `<button class="btn btn-danger btn-sm delete-btn" data-id="${user.id}">Delete</button>`
+                        : '';
+
+                    var row = `
+                        <tr>
+                            <td>${user.id}</td>
+                            <td>${user.userName}</td>
+                            <td>${user.email}</td>
+                            <td>${user.phoneNumber || ''}</td>
+                            <td>${user.role}</td>
+                            <td>${userDetails.fullName || ''}</td>
+                            <td>${userDetails.address || ''}</td>
+                            <td>${userDetails.dateOfBirth ? new Date(userDetails.dateOfBirth).toLocaleDateString() : ''}</td>
+                            <td><button class="btn btn-info btn-sm recovery-btn" data-id="${user.id}">Recover User</button></td>
+                        </tr>
+                    `;
+                    tbody.append(row);
+                });
+
+                $('.change-role-btn').click(function() {
+                    let userId = $(this).data('id');
+                    let action = $(this).data('action');
+                    changeRole(userId, action);
+                });
+
+                $('.delete-btn').click(function() {
+                    let userId = $(this).data('id');
+                    if (confirm('Are you sure you want to delete this user?')) {
+                        deleteUser(userId);
+                    }
+                });
+            }
+
+            function changeRole(userId, action) {
+                $.ajax({
+                    url: `http://localhost:5100/api/Users/ChangeRole/${userId}?action=${action}`,
+                    type: 'POST',
+                    success: function() {
+                        alert(`User ${action === 'promote' ? 'promoted to admin' : 'degraded to user'} successfully`);
+                        loadUsers(); // Reload the user list
+                    },
+                    error: function(jqXHR, textStatus, errorThrown) {
+                        console.log('Error:', textStatus, errorThrown);
+                        alert(`Error changing user role to ${action}`);
+                    }
+                });
+            }
+
+            function deleteUser(userId) {
+                $.ajax({
+                    url: `http://localhost:5100/api/Users/Delete/${userId}`,
+                    type: 'PUT',
+                    success: function() {
+                        alert('User deleted successfully');
+                        loadUsers(); // Reload the user list
+                    },
+                    error: function(jqXHR, textStatus, errorThrown) {
+                        console.log('Error:', textStatus, errorThrown);
+                        alert('Error deleting user');
+                    }
+                });
+            }
+
+            $('#searchButton').click(function() {
+                searchTerm = $('#searchBox').val();
+                loadUsers();
+            });
+
+            $('#usersTable th a').click(function() {
+                let sortColumn = $(this).data('sort');
+                currentSort.direction = currentSort.direction === 'asc' ? 'desc' : 'asc';
+                currentSort.column = sortColumn;
+                loadUsers();
+            });
+
+            loadUsers();
+        });
+
+    </script>
+}
+

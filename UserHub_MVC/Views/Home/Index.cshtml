@@ -1,0 +1,134 @@
+﻿@{
+    var user = ViewBag.User as dynamic;
+    @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+    if (Context.Session.GetInt32("RoleId") == null) {
+        <script>
+            window.location.href = "/Account/AccessDenied";
+        </script>
+    } 
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit User</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="container mt-4">
+        <h2>Edit User</h2>
+
+        <form id="editUserForm">
+            <input type="hidden" id="userId" name="UserId" value="@user.id" />
+            <div class="form-group mb-3">
+                @if (user.avatar != null && !string.IsNullOrEmpty(user.avatar.ToString().Trim()))
+                {
+                    <img class="avatar" src="@Url.Content(user.avatar.ToString().Trim())" alt="Avatar Image" style="width: 200px; height: 200px;border-radius:50%;">
+                }
+                else
+                {
+                    <p>No avatar available</p>
+                }
+            </div>
+            Change Avatar <input name="Avatar" id="avatar" class="form-control" type="file" accept="image/*" />
+            <div class="form-group mb-3">
+                <label for="userName">UserName</label>
+                <input type="text" id="userName" name="UserName" class="form-control" value="@user.userName" readonly/>
+            </div>
+
+            <div class="form-group mb-3">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="Email" class="form-control" value="@user.email" />
+            </div>
+
+            <div class="form-group mb-3">
+                <label for="phoneNumber">PhoneNumber</label>
+                <input type="text" id="phoneNumber" name="PhoneNumber" class="form-control" value="@user.phoneNumber" />
+            </div>
+
+            <div class="form-group mb-3">
+                <label for="role">Role</label>
+                <input type="text" id="role" name="Role" class="form-control" value="@user.role" readonly/>
+            </div>
+
+            @if (user.userDetails != null)
+            {
+                @for (int i = 0; i < user.userDetails.Count; i++)
+                {
+                    <fieldset class="border p-3 mb-4">
+                        <legend class="w-auto">User Detail</legend>
+
+                        <div class="form-group mb-3">
+                            <label for="fullName_@i">FullName</label>
+                            <input type="text" id="fullName_@i" name="FullName" class="form-control" value="@user.userDetails[i].fullName" />
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label for="address_@i">Address</label>
+                            <input type="text" id="address_@i" name="Address" class="form-control" value="@user.userDetails[i].address" />
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label for="dateOfBirth_@i">DateOfBirth</label>
+                            <input type="date" id="dateOfBirth_@i" name="DateOfBirth" class="form-control" value="@user.userDetails[i].dateOfBirth.ToString("yyyy-MM-dd")" />
+                        </div>
+                    </fieldset>
+                }
+            }
+
+            <button type="button" class="btn btn-primary" onclick="updateUser()">Save</button>
+        </form>
+         <div class="mt-4">
+            <a href="/Account/ChangePassword" class="btn btn-warning">Change Password</a>
+        </div>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        async function updateUser() {
+            const userName = document.getElementById('userName').value;
+            const userId = document.getElementById('userId').value;
+            const email = document.getElementById('email').value;
+            const phoneNumber = document.getElementById('phoneNumber').value;
+            //const role = document.getElementById('role').value;
+            const fullName = document.querySelector('input[name="FullName"]').value;
+            const address = document.querySelector('input[name="Address"]').value;
+            const dateOfBirth = document.querySelector('input[name="DateOfBirth"]').value;
+            const avatarImg = document.querySelector('input[name="Avatar"]').files[0]; // Lấy file từ input
+            const formData = new FormData();
+
+            formData.append('UserId', userId);
+            formData.append('UserName', userName);
+            formData.append('Email', email);
+            formData.append('PhoneNumber', phoneNumber);
+            formData.append('FullName', fullName);
+            //formData.append('Role', role);
+            formData.append('Address', address);
+            formData.append('DateOfBirth', dateOfBirth);
+            formData.append('AvatarImg', avatarImg);
+
+            try {
+                const response = await fetch(`/Home/EditUser`, {
+                    method: 'PUT',
+                    body: formData 
+                });
+
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+
+                alert('User updated successfully!');
+                window.location.reload();
+            } catch (error) {
+                console.error('There was a problem with the fetch operation:', error);
+                alert('Failed to update user. Please try again.');
+            }
+}
+
+    </script>
+</body>
+</html>
